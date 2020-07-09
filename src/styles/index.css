@@ -232,6 +232,7 @@ body {
   margin-bottom: 24px;
   -webkit-box-shadow: 0 12px 24px rgba(76, 78, 97, 0.125);
           box-shadow: 0 12px 24px rgba(76, 78, 97, 0.125);
+  background-color: #fff;
   border-radius: 8px;
 }
 
