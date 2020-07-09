@@ -2,7 +2,7 @@
 
 $colors-primary: (
     red: hsl(0, 78%, 62%),
-    Cyan: hsl(180, 62%, 55%),
+    cyan: hsl(180, 62%, 55%),
     orange: hsl(34, 97%, 64%),
     blue: hsl(212, 86%, 64%)
 );
@@ -14,5 +14,11 @@ $colors-neutral: (
 );
 
 $font-sizes: (
-    font-desktop: 15px
+    title-mobile: 24px,
+    subtitle-mobile: 16px,
+    title-desktop: 36px,
+    card-title-mobile: 20px,
+    card-body-mobile: 12px
 );
+
+/* - Weights: 200, 400, 600 */
