@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+/* - Weights: 200, 400, 600 */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .attribution {
+    margin-top: 20px;
+  }
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+@media (min-width: 1024px) {
+  body {
+    width: calc(100% - 10vw);
+    height: 100vh;
+    margin: 0 5vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.component {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: calc(100% - 17.066%);
+  margin: 0 8.53% 48px 8.53%;
+}
+
+@media (min-width: 1024px) {
+  .component {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin: 0;
+    max-width: 1110px;
+  }
+}
+
+.component .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 48px;
+  margin-top: 78px;
+}
+
+@media (min-width: 1024px) {
+  .component .header {
+    margin-bottom: 57px;
+  }
+}
+
+.title {
+  width: 100%;
+  font-size: 24px;
+  color: #4c4e61;
+  letter-spacing: 0.2px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 36px;
+  }
+}
+
+.title p {
+  margin: 0;
+  font-weight: 200;
+}
+
+.title b {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #a3a5ae;
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .subtitle {
+    max-width: 525px;
+  }
+}
+
+.component-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .component-cards {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.component-cards__middle-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .component-cards__middle-section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1024px) {
+  .component-cards__middle-section {
+    max-width: 280px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 30px;
+    height: 530px;
+  }
+  .component-cards__middle-section .card {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .component-cards__middle-section {
+    max-width: 350px;
+  }
+}
+
+.card {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  height: 220px;
+  padding: 24px;
+  margin-bottom: 24px;
+  -webkit-box-shadow: 0 12px 24px rgba(76, 78, 97, 0.125);
+          box-shadow: 0 12px 24px rgba(76, 78, 97, 0.125);
+  border-radius: 8px;
+}
+
+@media (min-width: 411px) {
+  .card {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    max-width: 280px;
+    height: 250px;
+    padding: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card {
+    max-width: 350px;
+  }
+}
+
+.card b {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+@media (min-width: 1024px) {
+  .card b {
+    margin-bottom: 8px;
+  }
+}
+
+.card p {
+  margin: 0;
+  color: #a3a5ae;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  line-height: 23px;
+}
+
+.card svg {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  width: 64px;
+  height: 64px;
+}
+
+@media (min-width: 1024px) {
+  .card svg {
+    bottom: 30px;
+    right: 30px;
+  }
+}
+
+.card svg path {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.card--border-cyan {
+  border-top: 4px solid #45d3d3;
+}
+
+.card--border-red {
+  border-top: 4px solid #ea5353;
+}
+
+.card--border-orange {
+  border-top: 4px solid #fcaf4a;
+}
+
+.card--border-blue {
+  border-top: 4px solid #549ef2;
+}
+/*# sourceMappingURL=index.css.map */
