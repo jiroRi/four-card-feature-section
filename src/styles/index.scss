@@ -177,6 +177,7 @@ body {
                 font-weight: 600;
                 font-size: map-get($font-sizes, card-title-mobile);
                 margin-bottom: 4px;
+                color: map-get($colors-neutral, very-dark-blue);
 
                 @media(min-width: 1024px) {
                     margin-bottom: 8px;
@@ -188,7 +189,7 @@ body {
                 color: map-get($colors-neutral, grayish-blue);
                 font-weight: 400;
                 font-size: map-get($font-sizes, card-body-mobile);
-                letter-spacing: 0.6px;
+                letter-spacing: 0.3px;
                 line-height: 23px;
             }
 
