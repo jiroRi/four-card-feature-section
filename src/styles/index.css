@@ -230,10 +230,10 @@ body {
   height: 220px;
   padding: 24px;
   margin-bottom: 24px;
-  -webkit-box-shadow: 0 12px 24px rgba(76, 78, 97, 0.125);
-          box-shadow: 0 12px 24px rgba(76, 78, 97, 0.125);
+  -webkit-box-shadow: 0 12px 24px rgba(84, 158, 242, 0.15);
+          box-shadow: 0 12px 24px rgba(84, 158, 242, 0.15);
   background-color: #fff;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 @media (min-width: 411px) {
